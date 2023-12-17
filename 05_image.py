@@ -2,9 +2,6 @@ import imageio.v2 as iio
 import matplotlib.pyplot as plt
 import numpy as np
 
-shape = (16, 16)
-dtype = np.uint8
-
 
 def show_img(img):
     plt.imshow(img, cmap="gray")
@@ -46,6 +43,9 @@ def remove_diagonal(img):
         img[i, i] = 0
     return img
 
+
+shape = (16, 16)
+dtype = np.uint8
 
 img = black_img()
 img = cameraman()

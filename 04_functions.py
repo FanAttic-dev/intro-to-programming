@@ -19,5 +19,8 @@ def exponentiate(x):
 
 y = exponentiate(x)
 plt.plot(x, y)
+plt.axvline(x=0, c="black", label="x=0")
+plt.axhline(y=0, c="black", label="y=0")
+plt.axis([-5, 5, -2, 2])
 
 plt.show()
