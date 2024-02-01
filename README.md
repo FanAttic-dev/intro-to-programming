@@ -1,3 +1,6 @@
+A gentle introduction to programming (in Python).
+
+## Contents
 1. Algorithmization
    1. https://blockly.games/turtle?lang=en&level=1
 2. Printing (hello world)
